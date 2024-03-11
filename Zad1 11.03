@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Links</title>
+</head>
+<body>
+<div id="main">
+  <a href="https://google.pl"
+     target="_blank">Wyszukiwarka Google</a><br>
+</div>
+<a href="https://sklep.pja.edu.pl/wp-content/uploads/2018/05/logo-wydawnictwo-pjatk-m-300x79.png" download="logo">
+  Pobierz Logo
+</a><br>
+<a href="https://duckduckgo.com "
+   target="_blank">Go to page
+</a><br>
+</body>
+</html>
