@@ -1,67 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Table example</title>
-</head>
+
 <body>
-<div id="main">
-  <table border="1">
-    <tr>
-      <td rowspan="2">Grupa A</td>
-      <td colspan="2">Mecz 1</td>
-      <td colspan="2">Mecz 2</td>
-    </tr>
+    <table style="border 1">
+        <tr>
+            <th> 
+              <td colspan="5" style="text-align:center">Tabela przykładowa </td>
+            </th>
+        </tr>
+        <tr>
+            <th bgcolor="yellow" rowspan="2">Grupa A</th>
+            <th bgcolor="yellow" colspan="2">Mecz 1</th>
+            <th bgcolor="yellow" colspan="2">Mecz 2</th>
+        </tr>
 
-    <tr>
-      <td>Drużyna 1</td>
-      <td>Drużyna 2</td>
-      <td>Drużyna 1</td>
-      <td>Drużyna 2</td>
-    </tr>
+        <tr>
+            <th bgcolor="yellow">Drużyna 1</th>
+            <th bgcolor="yellow">Drużyna 2</th>
+            <th bgcolor="lightblue">Drużyna 1</th>
+            <th>Drużyna 2</th>
+        </tr>
 
-    <tr>
-      <td rowspan="2">Rosja</td>
-      <td>1</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
+        <tr>
+            <td bgcolor="yellow" rowspan="2">Rosja</td>
+            <td bgcolor="yellow">1</td>
+            <td bgcolor="yellow">2</td>
+            <td bgcolor="lightblue">0</td>
+            <td>0</td>
+        <tr>
+            <td bgcolor="yellow">2</td>
+            <td bgcolor="yellow">1</td>
+            <td bgcolor="lightblue">0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow" rowspan="2">Polska</td>
+            <td bgcolor="yellow">0</td>
+            <td bgcolor="yellow">2</td>
+            <td bgcolor="lightblue">1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">2</td>
+            <td bgcolor="yellow">0</td>
+            <td bgcolor="lightblue">1</td>
+            <td>1</td>
+        </tr>
 
-    <tr>
-      <td>2</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
 
-    </tr>
-    <tr>
-      <td rowspan="2"> Polska</td>
-      <td>0</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
+        </tr>
+        <td bgcolor="yellow" colspan="4">
+            <table>
+                <td colspan="4" style="text-align:center">
 
-    <tr>
-      <td>2</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
+                    Przykładowa<br> zagnieżdżona tabela</td>
+                <tr>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                    <th>Wiek</th>
+                </tr>
+                <tr>
+                    <td>Jan</td>
+                    <td>Kowalski</td>
+                    <td>25</td>
+                </tr>
 
-    <tr>
-      <td colspan="5" rowspan="5">
-    <table>
-    <tr>
-    <td>Grupa A</td>
-    <td>Mecz 1</td>
-    <td>Mecz 2</td>
-  </tr>
-   </table>
-    </td>
-</tr>
-</table>
-</div>
+                <tr>
+                    <td>Anna</td>
+                    <td>Nowak</td>
+                    <td>30</td>
+                </tr>
+            </table>
+            <tr>
+                <td bgcolor="yellow" colspan="2">Razem</td>
+                <td bgcolor="lightblue">4</td>
+                <td bgcolor="lightblue">4</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+    </table>
 </body>
+
 </html>
