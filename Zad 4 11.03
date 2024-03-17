@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<body>
+<table>
+   <tr>
+    <th>Zdjęcie produktu</th>
+    <th>Nazwa produktu</th>
+    <th>Cena</th>
+    <th>Liczba Sztuk</th>
+   </tr>
+
+
+    <tr>
+        <td><img width="100px" height="100px" src="https://en.wikipedia.org/wiki/Age_of_Empires_%28video_game%29#/media/File:Age_of_Empires_Coverart.jpg" alt="Produkt1">
+      	</td>
+        <td>Produkt 1</td>
+        <td>99,99zł</td>
+        <td><input value="1"></td>
+        <td><button>Dodaj do koszyka</button></td>
+
+    </tr>
+
+    <tr>
+        <td><img src ="https://img.redbull.com/images/w_1200/q_auto,f_auto/redbullcom/2016/12/19/1331835313491_2/age-of-empires-ii-hd-rise-of-rajas" alt="Produkt2" height="100px" width="100px" src = " "></td>
+        <td>Produkt 2</td>
+        <td>79,99zł</td>
+        <td><input value="1"></td>
+        <td><button>Dodaj do koszyka</button></td>
+
+    </tr>
+
+    <tr>
+        <td><img src ="https://cdn-products.eneba.com/resized-products/ztw71xl97oqfdj31qgg2_350x200_1x-0.jpg" alt="Produkt3" width="100px" height="100px"></td>
+        <td>Produkt 3</td>
+        <td>129,99zł</td>
+        <td><input value="1"></td>
+        <td><button>Dodaj do koszyka</button></td>
+    </tr>
+
+    <tr>
+        <td><img src="https://m.media-amazon.com/images/I/91pVlR1rRUL._SL1500_.jpg" height="100px" alt="Produkt4" width="100px"></td>
+        <td>Produkt 4</td>
+        <td>49,99zł</td>
+        <td><input value="1"></td>
+        <td><button>Dodaj do koszyka</button></td>
+
+    </tr>
+
+    <tr>
+        <td><img src = "https://cdn.mobygames.com/covers/4940649-age-of-empires-ii-the-age-of-kings-windows-other.jpg" width="100px" height="100px" alt="Produkt5"></td>
+        <td>Produkt 5</td>
+        <td>199,99zł</td>
+        <td><input value="1"></td>
+        <td><button>Dodaj do koszyka</button></td>
+    </tr>
+
+</table>
+</body>
+</html>
