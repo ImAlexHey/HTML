@@ -1,0 +1,17 @@
+div.parent {
+    p {
+        color: red
+    }
+}
+
+div.container {
+    h1 {
+        background: blue
+    }
+}
+
+div.wrapper {
+    ul {
+        color: green
+    }
+}
