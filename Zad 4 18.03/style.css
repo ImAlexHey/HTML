@@ -1,0 +1,22 @@
+
+div{
+  background: lightgray;
+    a.pod1 {
+        font-size: 1.3rem;
+    }
+
+    a.pod2 {
+
+        font-size: 1.3rem;  
+    }
+    a.pod3 {
+        color: red;
+        font-size: 1.05rem;
+    }
+
+    a.pod4 {
+        color: red;
+        font-size: 1.3rem;
+    }
+}
+}
