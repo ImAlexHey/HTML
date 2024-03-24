@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+
+    h1 {
+        color: white;
+    }
+}
+.container .cubeOne {
+
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.container .cubeTwo {
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+}
