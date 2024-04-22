@@ -1,0 +1,23 @@
+<?php
+function sumaCyfr($liczba) {
+    $cyfry = str_split((string)$liczba);
+    $suma = 0;
+    foreach ($cyfry as $cyfra) {
+        $suma += intval($cyfra);
+    }
+    return $suma;
+}
+
+$liczba = 9974;
+echo "Suma cyfr liczby wynosi: " . sumaCyfr($liczba) . "\n";
+
+while (true) {
+    if (sumaCyfr($liczba) > 10) {
+        echo "Suma cyfr > 10 \n";
+        $liczba = sumaCyfr($liczba);
+        echo "Nowa suma cyfr liczby wynosi: " . sumaCyfr($liczba) . "\n";
+    } else {
+        break; 
+    }
+}
+?>

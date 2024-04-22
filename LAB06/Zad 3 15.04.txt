@@ -1,0 +1,43 @@
+<?php
+
+function pomnozMacierze($macierz1, $macierz2) {
+    $wynik = array();
+    
+    $m = count($macierz1);
+    $n = count($macierz2[0]);
+    $p = count($macierz2);
+    
+    for ($i = 0; $i < $m; $i++) {
+        for ($j = 0; $j < $n; $j++) {
+            $wynik[$i][$j] = 0;
+            for ($k = 0; $k < $p; $k++) {
+                $wynik[$i][$j] += $macierz1[$i][$k] * $macierz2[$k][$j];
+            }
+        }
+    }
+    
+    return $wynik;
+}
+
+$macierz1 = array(
+    array(2, 3, 4),
+    array(5, 6, 7)
+);
+
+$macierz2 = array(
+    array(1, 2),
+    array(3, 4),
+    array(5, 6)
+);
+
+$wynik = pomnozMacierze($macierz1, $macierz2);
+
+    echo "Wynik mnożenia macierzy:\n";
+    for ($i = 0; $i < count($wynik); $i++) {
+        for ($j = 0; $j < count($wynik[$i]); $j++) {
+            echo $wynik[$i][$j] . " ";
+        }
+        echo "\n";
+}
+
+?>

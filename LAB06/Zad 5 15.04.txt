@@ -1,0 +1,14 @@
+<?php
+function czyPangram($tekst) {
+    $wystapienia = array_fill(0, 26, false);
+    for ($i = 0; $i < strlen($tekst); $i++) {
+        if (ctype_alpha($tekst[$i])) {
+            $indeks = ord($tekst[$i]) - ord('a');
+            $wystapienia[$indeks] = true;
+        }
+    }
+    return !in_array(false, $wystapienia);
+}
+$tekst = "The quick brown fox jumps over the lazy dog";
+echo czyPangram($tekst) ? "true" : "false";
+?>
